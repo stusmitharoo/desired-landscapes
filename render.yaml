@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: kws-builders
+    name: desired-landscapes
     env: static
     branch: production
     buildCommand: gatsby build

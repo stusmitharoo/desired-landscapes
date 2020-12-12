@@ -1,6 +1,6 @@
 {
-  "name": "kws-gatsby",
-  "description": "kws builders",
+  "name": "desired-gatsby",
+  "description": "desired landscapes",
   "version": "1.0.0",
   "author": "Stuart Smith",
   "dependencies": {
@@ -23,6 +23,6 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/stusmitharoo/kws-gatsby"
+    "url": "https://github.com/stusmitharoo/desired-landscapes"
   }
 }
