@@ -41,8 +41,8 @@ const PORTFOLIO_IMAGES = [
 ]
 
 const portfolio = () => {
-  const siteTitle = 'KWS builder';
-  const siteDescription = 'KWS builders portfolio static site';
+  const siteTitle = 'Desired landscapes';
+  const siteDescription = 'Desired landscapes portfolio static site';
   const renderPortfolio = images => {
     if (!images) return
 

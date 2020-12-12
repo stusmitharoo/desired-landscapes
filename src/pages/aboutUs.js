@@ -37,8 +37,8 @@ const ABOUT_IMAGES = [
 ]
 
 const aboutUs = () => {
-  const siteTitle = 'KWS builder';
-  const siteDescription = 'KWS builders portfolio static site';
+  const siteTitle = 'Desired landscapes';
+  const siteDescription = 'Desired landscapes portfolio static site';
   const renderAboutUs = images => {
     if (!images) return
 
@@ -52,7 +52,7 @@ const aboutUs = () => {
               e.preventDefault()
             }}
           >
-            <img src={obj.thumbnail} />
+            <img alt={obj.caption} src={obj.thumbnail} />
           </a>
 
           <h3>{obj.caption}</h3>

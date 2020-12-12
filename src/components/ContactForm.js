@@ -5,10 +5,10 @@ const ContactForm = () => {
     <section id="three">
       <h2>Get In Touch</h2>
       <p>
-        If you would like to discuss any projects you may have in mind please fill the form below.
+        If you would like to discuss any projects you may have in mind please contact us.
           </p>
       <div className="row">
-        <div className="8u 12u$(small)">
+        {/* <div className="8u 12u$(small)">
           <form method="post" action="#">
             <div className="row uniform 50%">
               <div className="6u 12u$(xsmall)">
@@ -42,7 +42,7 @@ const ContactForm = () => {
               </li>
             </ul>
           </form>
-        </div>
+        </div> */}
         <div className="4u 12u$(small)">
           <ul className="labeled-icons">
             <li>
@@ -71,7 +71,7 @@ const ContactForm = () => {
               <h3 className="icon fa-envelope-o">
                 <span className="label">Email</span>
               </h3>
-              <a href="#">smithkws9@aol.com</a>
+              <span>smithkws9@aol.com</span>
             </li>
           </ul>
         </div>

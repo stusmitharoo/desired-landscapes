@@ -11,7 +11,7 @@ const PortfolioImages = ({ images }) => {
           className="image fit thumb"
           to={link}
         >
-          <img src={obj.thumbnail} />
+          <img alt={obj.caption} src={obj.thumbnail} />
         </Link>
 
         <h3>{obj.caption}</h3>

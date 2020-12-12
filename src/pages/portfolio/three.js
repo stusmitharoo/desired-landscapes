@@ -64,8 +64,8 @@ const THREE_IMAGES = [
 
 
 const one = () => {
-  const siteTitle = 'KWS builder';
-  const siteDescription = 'KWS builders portfolio static site';
+  const siteTitle = 'Desired landscapes';
+  const siteDescription = 'Desired landscapes portfolio static site';
   return (
     <Layout>
       <Helmet>

@@ -6,14 +6,13 @@ import logo from '../assets/images/avatar.jpg'
 const Header = () => (
   <header id="header">
     <div className="inner">
-      <a href="#" className="image avatar">
+      <div className="image avatar">
         <img src={logo} alt="logo" />
-      </a>
+      </div>
       <h1>
-        <strong>KWS builders</strong>
-        <br />
-        The local family business
+        <strong>Desired landscapes</strong>
       </h1>
+      <h2 className="myh2">The local family business</h2>
     </div>
     <Footer />
   </header>

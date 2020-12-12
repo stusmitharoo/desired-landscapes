@@ -13,7 +13,7 @@ const ImageItem = ({ images, toggleLightbox }) => {
             toggleLightbox(i)
           }}
         >
-          <img src={obj.thumbnail} />
+          <img alt={obj.caption} src={obj.thumbnail} />
         </a>
 
         <h3>{obj.caption}</h3>

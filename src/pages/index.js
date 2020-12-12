@@ -64,8 +64,8 @@ const RECENT_IMAGES = [
 ]
 
 const HomeIndex = () => {
-  const siteTitle = 'KWS builder'
-  const siteDescription = 'KWS builders portfolio static site'
+  const siteTitle = 'Desired landscapes'
+  const siteDescription = 'Desired landscapes portfolio static site'
 
   return (
     <Layout>
@@ -84,7 +84,7 @@ const HomeIndex = () => {
             </h2>
           </header>
           <p>
-            KWS builders undertake various types of work including extensions,
+            Desired landscapes undertake various types of work including extensions,
             new builds or garage conversions to name a few. With 40 years experience
             you can be sure our builds are to exacting standards and can be confident
             of a nice timely build.
